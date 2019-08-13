@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/Brand1019/safe-model.git"
+    "url": "https://github.com/xiaotangdou/safe-model.git"
   },
   "keywords": [
     "safe",
@@ -21,10 +21,7 @@
     "@babel/preset-env": "^7.0.0",
     "rollup": "^1.12.1",
     "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify-es": "0.0.1"
+    "rollup-plugin-node-resolve": "^5.2.0"
   },
-  "dependencies": {
-    "manba": "^1.3.1"
-  }
+  "dependencies": {}
 }
