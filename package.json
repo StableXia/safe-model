@@ -1,8 +1,8 @@
 {
   "name": "safe-model",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "safe、decoupling",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "node build/rollup.js"
   },
@@ -23,5 +23,10 @@
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-node-resolve": "^5.2.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
