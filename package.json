@@ -1,6 +1,6 @@
 {
   "name": "safe-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "safe、decoupling",
   "main": "dist/main.js",
   "scripts": {
