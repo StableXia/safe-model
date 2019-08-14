@@ -7,7 +7,7 @@
 Using npm:
 
 ```bash
-$ npm install axios
+$ npm install safe-model
 ```
 
 ## Example
