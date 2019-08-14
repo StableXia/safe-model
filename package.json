@@ -4,7 +4,8 @@
   "description": "safe、decoupling",
   "main": "dist/main.js",
   "scripts": {
-    "build": "node build/rollup.js"
+    "build": "node build/rollup.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
